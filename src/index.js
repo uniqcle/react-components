@@ -12,7 +12,7 @@ import Icon from './components/icon/Sandbox';
 import Image from './components/image/Sandbox';
 import Chip from './components/chip/Sandbox';
 import Badge from './components/badge/Sandbox';
-
+import ListGroup from './components/list-group/Sandbox';
 
 ReactDOM.render((
   <BrowserRouter>
@@ -25,6 +25,7 @@ ReactDOM.render((
         <Route path="/image" component={Image} />
         <Route path="/chip" component={Chip} />
         <Route path="/badge" component={Badge} />
+        <Route path="/list-group" component={ListGroup} />
       </Switch>
     </App>
   </BrowserRouter>

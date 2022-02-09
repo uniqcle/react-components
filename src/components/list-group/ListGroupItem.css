@@ -1,0 +1,25 @@
+.list-group-item {
+  position: relative;
+  list-style-type: none;
+  border: 1px solid #ededed;
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px;
+}
+
+.list-group-item:not(:last-child) {
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  background-color: #23c9ff;
+  border: 1px solid #5eb2f2;
+  color: #fff;
+}
+
+.list-group-item.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
