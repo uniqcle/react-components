@@ -1,0 +1,88 @@
+.badge {
+  position: absolute;
+  top: -11px;
+  right: -11px;
+  background-color: #ebebeb;
+  padding: 2px;
+  display: block;
+  z-index: 9999;
+  width: 22px;
+  height: 22px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 16px;
+  border-radius: 3px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+
+.inline {
+  position: static;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.text {
+  width: auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.warning,
+.alert,
+.success,
+.info {
+  color: #fff;
+}
+
+.warning {
+  background-color: #d43728;
+}
+
+.alert {
+  background-color: #ede821;
+}
+
+.success {
+  background-color: #08c008;
+}
+
+.info {
+  background-color: #23c9ff;
+}
+
+.outer,
+.outer.warning,
+.outer.alert,
+.outer.success,
+.outer.info {
+  background-color: #fff;
+}
+
+.outer {
+  color: grey;
+  border: 2px solid #ebebeb;
+}
+
+.outer.warning {
+  color: #d43728;
+  border-color: #d43728;
+}
+
+.outer.alert {
+  color: #ede821;
+  border-color: #ede821;
+}
+
+.outer.success {
+  color: #08c008;
+  border-color: #08c008;
+}
+
+.outer.info {
+  color: #23c9ff;
+  border-color: #23c9ff;
+}

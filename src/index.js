@@ -11,6 +11,8 @@ import ButtonGroupSandbox from './components/buttonGroup/Sandbox';
 import Icon from './components/icon/Sandbox';
 import Image from './components/image/Sandbox';
 import Chip from './components/chip/Sandbox';
+import Badge from './components/badge/Sandbox';
+
 
 ReactDOM.render((
   <BrowserRouter>
@@ -22,6 +24,7 @@ ReactDOM.render((
         <Route path="/icon" component={Icon} />
         <Route path="/image" component={Image} />
         <Route path="/chip" component={Chip} />
+        <Route path="/badge" component={Badge} />
       </Switch>
     </App>
   </BrowserRouter>
